@@ -14,8 +14,8 @@ const styles = StyleSheet.create({
     width: getScreenWidth(),
   },
   hiddenTextInput: {
-    width: 1,
-    height: 1,
+    width: getScreenWidth(),
+    height: 20,
     backgroundColor: 'transparent',
   },
 });
